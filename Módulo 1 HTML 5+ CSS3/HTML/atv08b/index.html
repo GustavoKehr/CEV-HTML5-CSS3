@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+
+    <h2>Código Fonte / Pré formatado (tag &lt;code&gt; &lt;/code&gt e tag &lt;pre&gt; &lt;/pre&gt;);</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. (tag &lt;code&gt; &lt;/code&gt; e fora da code tag &lt;pre&gt; &lt;/pre&gt;) </p>
+    <hr>
+    <pre>
+        <code>
+#include < stdio.h > (sem os espaços)
+
+    int main() 
+    {
+        float n1,n2,n3, media;
+
+        printf("Digite sua primeira nota: ", n1);
+        scanf("%f", &n1);
+
+        printf("Digite sua segunda nota: ", n2);
+        scanf("%f", &n2);
+
+        printf("Digite sua terceira nota: ", n3);
+        scanf("%f", &n3);
+
+        media = (n1+n2+n3)/3;
+
+        if(media < 6)
+        {
+            printf("Vc foi reprovado sua média foi de: %.2f", media); 
+        }
+        else
+        {  
+            printf("Vc foi aprovado sua média foi de: %.2f", media);
+        }
+    return 0;
+    }
+        </code>
+    </pre>
+    <hr>
+
+    <h2>Sitações (tag &lt;q&gt; &lt;/q&gt;)</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q> (utilizar a tag &lt;q&gt; &lt;/q&gt; para dar sentido de uma sitação, não utilizar apenas as aspas apenas se não for uma citação)</p>
+
+    <hr>
+
+    <h2>Citações completas (tags &lt;bloclquote&gt; &lt;/blockquote&gt;)</h2>
+    <p>Segundo Aditya Y. Bhargava no seu Livro Entendendo Algoritimos: </p>
+    <blockquote cite="https://www.google.com.br/books/edition/Entendendo_Algoritmos/t5RODwAAQBAJ?hl=pt-BR&gbpv=0">
+        Comecei a programar como um hobby. O livro Visual Basic 6 for Dummies me ensinou o básico
+    </blockquote>
+
+    <hr>
+
+    <h2>Abreviações &lt;abbr&gt; &lt;/abbr&gt;</h2>
+    <p>Estou estudando <abbr title="HYPER TEXT MARKUP LANGUAGE">HTML</abbr> e <abbr title="CASCADING STYLE SHEETS">CSS</abbr></p>
+
+    <hr>
+
+    <h2>Texto invertido &lt;bdo&gt; &lt;/bdo&gt;</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+
+</body>
+</html>

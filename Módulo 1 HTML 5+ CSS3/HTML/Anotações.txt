@@ -1,0 +1,72 @@
+ESTAO NO ONENOTE (guckehr008@hotmail.com)
+CAP2 AULA 02: Como que as pessoas vão ver o meu site? 
+
+
+	Como funciona para entrar em um site:
+
+	* Quando vc digita a url vc envia o nome do servidor para o DNS que te retorna o ip do servidor do site
+
+	Meu servidor para o meu site:
+
+	* Guardando o servidor no meu pc HTML CSS no meu pc e quem quiser acessar de fora da minha maquina não tera acesso,
+	mesmo que eu de o ip do meu pc eles não vão conseguir acessar, pq minha maquina não é um servidor, e como não tenho um endereço físico, 
+	não tenho como acessar o dns
+
+	Servidor em outro pc:
+
+	* HTML CSS em outro servidor e quero acessar, o site só funcionara se o HTML e o CSS estiverem em um servidor para que de para enviar o 
+	nome para o DNS e ele me retornar o ip do servidor 
+
+	* Para outras pessoas acessarem meu site preciso de um dominio
+
+	* Preciso de um servidor para hospedar meu site para outras pessoas poderem ver
+
+
+		O que é uma url?
+
+			* é uma sigla para uniform resourse located, para ir exatamente no servidor declarado, dentro de uma url temos partes ex :
+			 github.com/gustavokehr (github.com é o dominio), (.com é o TLD (top level dominion, GTLD (genéricos) CCTLD (country code é o .com.br), (gustavokehr é a url),
+			www ou gustavokehr antes do dominio  (sub dominio) *****/ (/ é o caminho)
+
+
+
+CAP3 AULA 01: A difenreã entre HTML, CSS e JavaScript:
+
+	HTML : HYPERTEXT MARKUP LANGUAGE (Linguagem de Marcação para Hiper texto(clicar em uma area e ser desviado para outrs))
+
+	CSS: CASCADING STYLE SHEETS (Folhas de estilo em cascata) pq uma vai modificando a caracteristicas padrões as outras (cascata)
+
+		* HTML é o conteudo do SITE (Textos, Imagens, Videos, Tabelas, Listas)
+
+		* CSS	é a parte visual do SITE (Design, cores, sombras, tamanhos, posicionamento)
+
+		* JS é a interação (menus, animações, popups, validações)f
+
+	
+	*HTML*
+
+			para transformar o titulo (conteudo) precisa de uma tag especifica 
+				
+	
+			Abertura de tag (<h1>)		Titulo	  Fechamento de tag </h1>
+						<h1> titulo site </h1>
+
+			
+			para fazer o paragrafo <p> paragrafo <p> </p>
+
+			para colocar uma foto <img scr="foto.png" alt="foto"> img(abertura de tag) scr e alt(parametro) foto.png e foto(valor) 
+
+			alt = texto alternativo caso não consiga mostrar a foto 
+			
+
+	
+
+	
+
+	
+
+	
+
+	
+
+ 
