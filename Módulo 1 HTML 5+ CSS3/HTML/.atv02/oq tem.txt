@@ -1,0 +1,1 @@
+carga de imagens de 3 formas diferentes dentro da propria pasta, dentro de outra pasta e por url

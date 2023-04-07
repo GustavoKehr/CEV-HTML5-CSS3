@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tamanhos de imagens</title>
+</head>
+<body>
+    <h1>Imagens com tamanhos diferentes para diferentes dispositivos</h1>
+    <hr>
+
+    <div>
+        Tente abrir esse site em vários dispotivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador
+    </div>
+
+    <hr>
+
+    <p>tag picture é utilizada para trabalhar com midias de tamanhos diferentes para cada usuario, sempre colocando como base a imagem maior, e em cima da base a media, depois pequena</p>
+
+    <hr>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande(pc/tv">
+    </picture>
+    <hr>
+
+    <h1>Reproduzindo audio</h1>
+    <!-- <p><audio src="midia/confidentmusic.mp3" controls autoplay></audio></p> -->
+
+
+    <p>a melhor forma de se colocar reprodução de audio em um site é utilizando &lt;audio&gt; e &lt;source&gt;</p>
+    <audio preload="metadata" controls>
+        <source src="midia/confidentmusic.mp3" type="audio/mpeg">
+        <source src="midia/confidentmusic.ogg" type="audio/ogg">
+        <source src="midia/confidentmusic.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio clique <a href="midia/confidentmusic.mp3">aqui</a> para baixar o mp3</p>
+    </audio>
+</body>
+</html>
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <h1>teste pra krl</h1>
+
+    <picture><source media="(max-width: 750px)" srcset="gatita/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="gatita/foto-m.png" type="image/png">
+        <img src="gatita/foto-g.png" alt="fotog-gatita">
+    </picture>
+
+</body>
+</html> -->
