@@ -1,0 +1,6 @@
+Anatomia do tipo: como vamos desenhar cada uma das letras
+
+Fonte padrao: Times, New, Roman
+
+letra x é um ponto de partida para construcao de fontes, pq existe uma metrica chamada altura x, todas as letras minusculas sao baseadas na altura da letra x
+

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div {
+    background-color: rgba(165, 42, 42, 0.589);
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* div#d1 {
+    background-color: bisque;
+}
+
+div#d2 {
+    background-color: blue;
+}
+
+div#d3 {
+    background-color: brown;
+} */
+
+div:hover {
+    background-color: yellow;
+}

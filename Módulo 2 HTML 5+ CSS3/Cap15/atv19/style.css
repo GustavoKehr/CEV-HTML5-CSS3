@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* Body */
+body {
+    background-image: linear-gradient( to top, #51391A, #A79275, #A79275, #A79275,  #5E4A2F, #51391A );
+
+}
+/* Main */
+main {
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 2%;
+    box-shadow: 5px 5px 15px rgba(117, 82, 35, 0.5);
+}
+/* paragrafo */
+p {
+    text-align: justify;
+}
+/* head css */
+h1 {
+    color: green;
+    box-shadow: 1px 1px 30px rgb(5, 99, 17);
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+/* head 1 titulo principal */
+h1#titulo-p {
+    text-align: center;
+    box-shadow: 1px 1px 15px rgb(81, 0, 128);
+    border-radius:15px;
+    color: rgb(100, 35, 153);
+}
+/*  */
+h2 {
+    color: rgb(118, 170, 118);
+}
+/* HTML */
+.titulo-html {
+    color: orangered;
+    box-shadow: 1px 1px 15px rgb(255, 68, 0);
+}
+
+.basico {
+    color: rgb(179, 116, 0);
+}
+
+.intermediario {
+    color: rgb(179, 146, 0);
+}
+
+.avancado {
+    color: rgb(179, 169, 0);
+
+}
+
+
+/* CSS */
+
+.css-basico {
+    color: blue;
+}
+
+.css-intermediario {
+    color: rgb(43, 119, 145);
+}
+
+.css-avancado {
+    color: lightblue;
+
+}
+
+/*  */
+
+.destaque {
+    background-color: gold;
+}
+
+

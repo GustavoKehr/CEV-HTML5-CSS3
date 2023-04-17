@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+h1 {
+    background-color: blue; 
+    border-radius: 50%; 
+    text-align: center;
+    color: white;
+}
+p {
+    color: white;
+}
+
+h2 {
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+header {
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
