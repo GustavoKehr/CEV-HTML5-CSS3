@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @charset "UTF-8";
+
+        body {
+            font-family: sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+
+        header {
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            background-color: white;
+        }
+
+        nav {
+            background-color: rgb(15, 66, 83);
+            padding: 2px;
+            border-radius: 10px;            
+        }
+
+        nav > a {
+            margin-right: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        nav:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        article {
+            background-color: lightgray;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: darkgray;
+            border-radius: 10px;
+            padding: 15px;
+            font-weight: bolder;
+        }
+
+        article > aside > p::after {
+            content: '←';
+        }
+
+        article > aside > p::before {
+            content: '→';
+        }
+
+        section#assuntos {
+            background-color: rgba(0, 0, 0, 0.356);
+            border-radius: 10px;
+            padding: 1px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        section#assuntos > p > a {
+
+            margin-right: 180px;
+            text-decoration: none;
+            color: white;
+            margin: 92px;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        a:active {
+            color: orange;
+        }
+
+        section#assuntos > p > a:hover{
+            color: black;
+        }
+
+        section#assuntos > p > a:active {
+            color: green;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!--<div></div> BoxLevel
+        <span></span> Inline-level -->
+
+
+    <!-- Divs Semanticas -->
+    <header>
+        <h1>Meu site</h1>
+    <nav>
+        <a href="#">A</a>
+        <a href="#">a</a>
+        <a href="#">B</a>
+        <a href="#">b</a>
+        <a href="#">C</a>
+        <a href="#">c</a>
+    </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p class="section-assuntos">
+                <a href="#">Esporte</a>
+                <a href="#">Tecnologia</a>
+                <a href="#">Politica</a>
+            </p>
+        </section>
+
+        <section id="noticias">
+
+        </section>
+        <article> <h2>Noticias Sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel et animi cum molestias voluptas ipsa quod labore placeat necessitatibus libero, aperiam esse id officiis sunt nostrum commodi velit numquam molestiae.</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+        
+    </main>
+
+    <footer>
+        <p>Desenvolvido por GustavoK</p>
+    </footer>
+</body>
+</html>

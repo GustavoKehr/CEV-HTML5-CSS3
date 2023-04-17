@@ -24,16 +24,14 @@ a:active {
     color: green;
 }
 
-p:focus {
+/* p:focus {
     border: 2px solid blue;
     outline: none;
-}
+} */
 
 .especial::after{
     content: '←';
-    text-decoration: none;
-    font-weight: bold;
-    color: darkgrey;
+    
 }
 
 .especial::before {
