@@ -16,7 +16,7 @@
 
         header {
             padding: 10px;
-            border-radius: 10px;
+            border-radius: 10px 40px 10px 30px;
             margin: 10px;
             background-color: white;
         }
@@ -24,17 +24,18 @@
         nav {
             background-color: rgb(15, 66, 83);
             padding: 2px;
-            border-radius: 10px;            
+            border-radius: 10px 20px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.664);
         }
 
         nav > a {
-            margin-right: 30px;
+            margin-right: 135px;
             text-decoration: none;
             font-weight: bold;
             color: white;
         }
 
-        nav:hover {
+        nav > a:hover {
             text-decoration: underline;
         }
 
@@ -43,13 +44,18 @@
             padding: 10px;
             border-radius: 10px;
             margin: 10px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.664);
         }
 
         footer{
             background-color: black;
             color: white;
             text-align: center;
-            padding: 1px;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
             margin: 0px;
         }
 
@@ -57,6 +63,8 @@
             background-color: lightgray;
             border-radius: 10px;
             padding: 10px;
+            margin: 10px;
+            text-align: center;
         }
 
         article > aside {
@@ -100,12 +108,21 @@
 
         section#assuntos > p > a:hover{
             color: black;
+            text-decoration: underline;
         }
 
         section#assuntos > p > a:active {
             color: green;
         }
 
+        /* div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            margin-left: 900px;
+            background-color: white;
+            border-radius: 50%;
+        } */
 
     </style>
 </head>
@@ -114,9 +131,9 @@
         <span></span> Inline-level -->
 
 
-    <!-- Divs Semanticas -->
+    <!-- Grouping tags Semanticas -->
     <header>
-        <h1>Meu site</h1>
+        <h1>PARASSSS</h1>
     <nav>
         <a href="#">A</a>
         <a href="#">a</a>
@@ -128,13 +145,13 @@
     </header>
 
     <main>
-        <section id="assuntos">
+        <!-- <section id="assuntos">
             <p class="section-assuntos">
                 <a href="#">Esporte</a>
                 <a href="#">Tecnologia</a>
                 <a href="#">Politica</a>
             </p>
-        </section>
+        </section> -->
 
         <section id="noticias">
 
@@ -151,5 +168,8 @@
     <footer>
         <p>Desenvolvido por GustavoK</p>
     </footer>
+    <div id="bola">
+        
+    </div>
 </body>
 </html>
