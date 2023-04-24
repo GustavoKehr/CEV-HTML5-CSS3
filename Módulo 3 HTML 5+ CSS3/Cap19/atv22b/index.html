@@ -4,12 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A.A</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Teste de Imagem de fundo</title>
+
+    <style>
+        body {
+            background-image: url(./imagens/wallpaper002.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div.quadrado {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: lightgray;
+        }
+
+        div#q1 {
+            background-color: purple;
+        }
+
+        div#q2 {
+            background-image: url(./imagens/pattern003.png);
+        }
+
+        div#q3 {
+            background-image: linear-gradient(to bottom, rgb(24, 77, 24), rgb(76, 245, 76));
+        }
+
+    </style>
 </head>
 <body>
-    <header>
-        <h1>É isso ai</h1>
-        <p>vambora</p>
-    </header>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
 </body>
 </html>
