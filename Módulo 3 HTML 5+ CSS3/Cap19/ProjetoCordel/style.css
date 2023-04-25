@@ -10,18 +10,6 @@
         
     }
 
-    /* main {
-        background-image: url(imagens/background001.jpg);
-        position: relative;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        left: 50%;
-        top: 50%;
-
-        transform: translate(-50%, -50%);
-    } */
-
     header {
         background-color: black;
         color: white;
