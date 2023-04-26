@@ -7,7 +7,6 @@
     * {
         margin: 0px;
         padding: 0px;
-        
     }
 
     header {
@@ -21,7 +20,7 @@
 
     header > h1 {
         padding: 0px 0px 30px 0px;
-        font-size: 6em;
+        font-size: 10vw;
         font-family: 'Passion One', cursive;
     }
 
@@ -41,7 +40,7 @@
 
     article p {
         font-family: 'Sriracha', cursive;
-        font-size: 2em;
+        font-size: 3.5vw;
         line-height: 3em;
     }
 
@@ -49,11 +48,14 @@
         font-style: italic;
     }
 
+    a {
+        font-weight: bold;
+    }
     section.normal {
         background-color: white;
         color: black;
         padding: 40px 40px;
-        font-size: 3em;
+        font-size: 3.5vw;
         font-family: 'Sricha', cursive;
         line-height: 2.5em;
     }
@@ -71,10 +73,10 @@
     section.comImagem > p {
         color: white;
         line-height: 2.5em;
-        font-size: 3em;
+        font-size: 3.5vw;
         background-color: rgba(0, 0, 0, 0.459);
-        max-width: 620px;
-        padding: 15px;
+        display: inline-block;
+        padding: 10px;
     }
 
     section.comImagem2 {
@@ -89,10 +91,10 @@
     section.comImagem2 > p {
         color: white;
         line-height: 2.5em;
-        font-size: 3em;
+        font-size: 3.5vw;
         background-color: rgba(0, 0, 0, 0.459);
-        max-width: 620px;
-        padding: 15px;
+        display: inline-block;
+        padding: 10px;
     }
 
     footer {
