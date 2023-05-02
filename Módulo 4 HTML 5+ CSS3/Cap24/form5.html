@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            color: white;
+            background-color: black;
+            padding: 10px;
+        }
+
+        form {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 100px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+        <h1>Formulário</h1>
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="sexom">Masculino</label>
+            <input type="radio" name="sexo" id="sexom" checked> <br>
+
+            <label for="sexof">Feminino</label>
+            <input type="radio" name="sexo" id="sexof">
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <label for="futebol">Futebol
+            <input type="checkbox" name="futebol" id="futebol"></label><br>
+
+            <label for="basquete">Basquete</label>
+            <input type="checkbox" name="basquete" id="basquete"><br>
+
+            <label for="natacao">Natação</label>
+            <input type="checkbox" name="natacao" id="natacao"><br>
+
+            <label for="tenis">Tenis</label>
+            <input type="checkbox" name="tenis" id="tenis"><br>
+
+            <label for="outro">Outros</label>
+            <input type="checkbox" name="outros" id="outros">
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>
+</body>
+</html>
