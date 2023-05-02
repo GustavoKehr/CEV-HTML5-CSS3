@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+
+        input#media {
+            width: 100px;
+        }
+
+        input {
+            border-radius: 5px;
+            padding: 10px;
+            margin: 5px;
+            background-color: lightgrey;
+            
+        }
+
+        input#mes {
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="media">Média</label>
+            <input type="number" name="media" id="media" required min="1" max="10" step="0.1" value="5">
+        </p>
+        <p>
+            <label for="mes">Período Letivo</label>
+            <input type="month" name="mes" id="mes" required value="2023-05">
+        </p>
+        <p>
+            <label for="dia">Dia da prova: </label>
+            <input type="date" name="dia" id="dia" value="2023-05-02">
+        </p>
+        <p>
+            <label for="hora">Horario da prova</label>
+            <input type="time" name="hora" id="hora" value="12:00">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
