@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        form {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        textarea {
+            margin-left: 10px;
+            border: 2px solid black;
+        }
+
+        select {
+            border: 2px solid black;
+        }
+
+        input {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <legend><h1>Formulário</h1></legend>
+        <p>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="" selected>--- Escolha seu estado ---</option>
+                <optgroup label="Regiao Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                
+                <optgroup label="Regiao Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+        <!-- datalist (posso digitar o que quero e já me pre-determina algumas escolhas feitas pelo desenvolvedor ) -->
+        <p>
+            <label for="profissao">Profissao</label>
+            <input type="text" name="profissao" id="profissao" list="listaprofissao">
+            <datalist id="listaprofissao">
+                <!-- posso fazer sem valores para nao aparecer a abbr -->
+                <option value="ADM">Administrador</option>
+                <option>Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option>Professor</option>
+            </datalist>
+        </p>
+        <!-- optgroup dentro de datalist para organizar(posso digitar e tbm posso escolher opcoes pre-determinadas pelo desenvolvedor) -->
+        <p>
+            <label for="agentes">Agentes</label>
+            <input type="text" name="agentes" id="agentes" list="agentesValorant">
+            <datalist id="agentesValorant">
+                <optgroup>
+                    <option value="KJ">Killjoy</option>
+                    <option value="PHO">Phoenix</option>
+                    <option value="REY">Reyna</option>
+                </optgroup>
+            </datalist>
+        </p>
+        <p>
+            <label for="mensagem">Mensagem: &dArr;</label> <br>
+            <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
