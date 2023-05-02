@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-indent: 1em;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            padding: 5px;
+            text-align: center;
+        }
+
+        form > p > input#submit {
+            margin-left: 100px;
+        }
+
+        input#nome {
+            margin-left: 40px;
+        }
+
+        input#cpf {
+            margin-left: 54px;
+        }
+
+        input#senha {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" autocomplete="off" method="post" >
+        <p><label for="nome">Nome: </label> <input type="text" name="nome" id="nome"></p>
+        <p><label for="sobrenome">Sobrenome: </label> <input type="text" name="sobrenome" id="sobrenome"></p>
+        <p><label for="cpf">CPF</label> <input type="number" name="cpf" id="cpf"></p>
+        <p><label for="senha">Senha: <input type="password" name="senha" id="senha"></label></p>
+        <p><input type="submit" value="Enviar" id="submit"></input></p>
+    </form>
+</body>
+</html>
