@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Style da tela */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+menu ul {
+    background-color: aqua;
+    width: 250px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+menu > ul li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+article {
+    width: 600px;
+    margin: auto;
+    padding-top: 20px;
+
+}
