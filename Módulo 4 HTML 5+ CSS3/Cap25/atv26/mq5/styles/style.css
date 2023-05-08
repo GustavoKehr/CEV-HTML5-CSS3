@@ -9,46 +9,66 @@
 html, body {
     width: 100vw;
     height: 100vh;
+    background-color: lightgrey;
 }
 
+/* HEADER */
 header {
     background-color: black;
     color: white;
-    text-align: center;
 }
 
 header > h1 {
     padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-menu {
-    background-color: black;
-    color: white;   
+header > span#burguer {
+    background-color: rgb(121, 121, 216);
+    display: block;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
 }
 
-menu li {
-    display: inline-block;
-    background-color: grey;
-    padding: 10px 30px 10px 30px;
-    margin-top: 20px;
-}
-
-menu li a {
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    text-decoration: underline;
+header >span#burguer:hover {
+    background-color: rgb(121, 121, 216);
     color: black;
 }
 
 
+/* MENU */
+menu {
+    display: none;
+}
 
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-top: 2px solid rgb(121, 121, 216);
+    padding: 10px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(121, 121, 216);
+}
+
+
+/* ARTICLE */
 main > article {
     margin: auto;
     background-color: rgb(121, 121, 216);
-    width: 60vw;
+    width: 70vw;
     padding: 20px;
     margin-top: 5px;
     border-radius: 10px;
@@ -60,6 +80,7 @@ main > article h1 {
 }
 
 main > article p {
+    text-align: justify;
     text-indent: 1.5em;
     line-height: 1.5em;
 }
