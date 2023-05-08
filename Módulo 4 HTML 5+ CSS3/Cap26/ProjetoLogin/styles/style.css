@@ -23,15 +23,16 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%; 
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
     background-color: white;
     width: 350px;
-    height: 700px;
+    height: 520px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
 
+    transform: translate(-50%, -50%);
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 }
@@ -50,6 +51,95 @@ section#login > div#formulario {
 }
 
 section#login > div#formulario > h1 {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+section#login > div#formulario > p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+form > div#campo > input[type=submit] {
+    display: block;
+    font-size: 2em;
+    background-color: red;
+    width: 100%;
+}
+
+form > div.campo {
+    background-color: rgb(50, 207, 50);
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid green;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo span {
+    color: black;
+    font-size: 2em;
+    width: 40px;
+}
+
+div.campo > input {
+    background-color: rgb(6, 139, 6);
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    
+    border-radius: 10px;
+    padding: 16px;
+    border: 0px;
+    transform: translateY(-13px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+
+input.entrar {
+    background-color: green;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+input.entrar:hover {
+    background-color: rgb(50, 207, 50);
+    color: white;
+    cursor: pointer;
+}
+
+a.botao {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    background-color: orange;
+    text-decoration: none;
+    padding-top: 5px;
+    color: white;
+}
+
+a.botao:hover {
+    background-color: rgb(255, 223, 164);
+    color: white;
+    cursor: pointer;
 }
 
